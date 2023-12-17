@@ -1,3 +1,7 @@
+# To run this program:
+# 1. run "source STUDYsession/bin/activate" on terminal
+# 2. change the path of image on line 48
+# 3. before exiting, deactive the session by running "deactive" on terminal
 import cv2
 def detect_qr_code(image_path):
     # Load the image from the file system
@@ -41,5 +45,5 @@ def detect_qr_code(image_path):
         print("No QR code found in the image")
 
 # Example usage
-image_path = 'opencv/no.png'
+image_path = 'opencv/four.png'
 detect_qr_code(image_path)
